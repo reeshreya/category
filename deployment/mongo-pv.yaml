@@ -1,8 +1,7 @@
 apiVersion: v1
 kind: PersistentVolume
 metadata:
-  name: mongo-pv
-  namespace: gamma
+  name: mongo-pv-gamma
   labels:
     type: local
 spec:
